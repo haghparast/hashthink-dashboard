@@ -1,0 +1,114 @@
+{
+  "receiver": {
+    "name": "Taha Shokouhi",
+    "email": "taha.shokouhi@example.com",
+    "createdAt": "2024-12-22",
+    "currencies": [
+      { "code": "USD", "accounts": 2 },
+      { "code": "IRR", "accounts": 2 },
+      { "code": "INR", "accounts": 1 }
+    ]
+  },
+  "transactions": [
+    {
+      "rowNumber": 1,
+      "referenceNumber": "61651351355468",
+      "to": "Sarah Johnson",
+      "dateTime": "2024-12-23T15:40:00",
+      "paidWith": "ACH (Connected bank Accounts)",
+      "amount": 3000,
+      "currency": "USD",
+      "status": "Approved"
+    },
+    {
+      "rowNumber": 2,
+      "referenceNumber": "TX789012345-01",
+      "to": "Mohammad Reza",
+      "dateTime": "2024-12-22T09:15:00",
+      "paidWith": "Wire Transfer (Chase Bank)",
+      "amount": 1500000,
+      "currency": "IRR",
+      "status": "Pending"
+    },
+    {
+      "rowNumber": 3,
+      "referenceNumber": "SWIFT89012345",
+      "to": "Raj Patel",
+      "dateTime": "2024-12-21T14:20:00",
+      "paidWith": "SWIFT Transfer",
+      "amount": 75000,
+      "currency": "INR",
+      "status": "Approved"
+    },
+    {
+      "rowNumber": 4,
+      "referenceNumber": "ACH456789012",
+      "to": "Emily Chen",
+      "dateTime": "2024-12-20T11:30:00",
+      "paidWith": "ACH (Bank of America)",
+      "amount": 5500,
+      "currency": "USD",
+      "status": "Approved"
+    },
+    {
+      "rowNumber": 5,
+      "referenceNumber": "WU123456789",
+      "to": "Ali Hosseini",
+      "dateTime": "2024-12-19T16:45:00",
+      "paidWith": "Western Union",
+      "amount": 2200000,
+      "currency": "IRR",
+      "status": "Pending"
+    },
+    {
+      "rowNumber": 6,
+      "referenceNumber": "INTL567890123",
+      "to": "Priya Sharma",
+      "dateTime": "2024-12-18T10:25:00",
+      "paidWith": "International Wire (CitiBank)",
+      "amount": 95000,
+      "currency": "INR",
+      "status": "Approved"
+    },
+    {
+      "rowNumber": 7,
+      "referenceNumber": "DB234567890",
+      "to": "David Wilson",
+      "dateTime": "2024-12-17T13:50:00",
+      "paidWith": "Direct Bank Transfer",
+      "amount": 4200,
+      "currency": "USD",
+      "status": "Pending"
+    },
+    {
+      "rowNumber": 8,
+      "referenceNumber": "PMT345678901",
+      "to": "Zahra Ahmadi",
+      "dateTime": "2024-12-16T08:35:00",
+      "paidWith": "PayMate Transfer",
+      "amount": 1800000,
+      "currency": "IRR",
+      "status": "Approved"
+    },
+    {
+      "rowNumber": 9,
+      "referenceNumber": "RTX456789012",
+      "to": "Arjun Mehta",
+      "dateTime": "2024-12-15T17:15:00",
+      "paidWith": "RippleNet Transfer",
+      "amount": 120000,
+      "currency": "INR",
+      "status": "Pending"
+    },
+    {
+      "rowNumber": 10,
+      "referenceNumber": "FW567890123",
+      "to": "Michael Brown",
+      "dateTime": "2024-12-14T12:40:00",
+      "paidWith": "Fast Wire (Wells Fargo)",
+      "amount": 7800,
+      "currency": "USD",
+      "status": "Approved"
+    }
+  ]
+}
